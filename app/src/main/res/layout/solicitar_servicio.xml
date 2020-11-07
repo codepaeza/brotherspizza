@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:text="Llamar a Fijo: 7581801"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="llamadaTelefono">
+
+    </Button>
+
+    <Button
+        android:text="Llamar a Cel: 3012020604"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="llamadaCelular">
+
+    </Button>
+
+    <Button
+        android:text="Enviar WhatsApp a 3012020604"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviaWhatsapp">
+
+    </Button>
+
+</LinearLayout>

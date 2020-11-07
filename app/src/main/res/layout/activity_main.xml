@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/scrollview1"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="Brother´s Pizza"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/logo_tipo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="Logo de Tipo Empresa"
+            android:src="@drawable/pizza"/>
+        <TextView
+            android:id="@+id/tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ven y Disfruta al estilo de New York" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/logo_direccion"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="logo de dirección"
+            android:src="@android:drawable/ic_menu_myplaces"/>
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cra 12 Bis N° 25-20 Sur- B. San José" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+        android:id="@+id/logo_telefono"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="logo de teléfono"
+        android:src="@android:drawable/ic_menu_call"/>
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tel Fijo: 7581801" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+            android:id="@+id/logo_telefono2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="logo de teléfono"
+            android:src="@android:drawable/ic_menu_call"/>
+        <TextView
+            android:id="@+id/telefono2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Celular: 3012020604" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/logo_comentarios"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="logo de comentarios"
+            android:src="@drawable/experiencia"/>
+        <TextView
+            android:id="@+id/comentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="30 años de experiencia en USA" />
+    </LinearLayout>
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="fotografía"
+            android:src="@drawable/logo"/>
+
+    </FrameLayout>
+</LinearLayout>
+</ScrollView>

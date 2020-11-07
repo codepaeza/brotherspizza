@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.paez.edwin.brotherspizza">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".SolicitarActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".MenuUnoActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ListaPizzaActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ListaPizza2Activity"
+            android:parentActivityName=".ListaPizzaActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ListaStromboliActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ListaFugazzaActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ListaGarlicActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+        android:name=".ListaHamburguesaActivity"
+        android:parentActivityName=".MenuUnoActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+    </activity>
+        <activity
+            android:name=".ListaPapasActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ListaSandwichActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ListaCarnesActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ListaAlbondigasActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ListaPastaActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ListaPerroActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name=".ListaChileActivity"
+            android:parentActivityName=".MenuUnoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
